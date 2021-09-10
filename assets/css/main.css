@@ -636,6 +636,64 @@ input, select, textarea {
 		}
 
 
+/* Right contact image */
+.rightc_image {
+	border-radius: 4px;
+	border: 0;
+	display: inline-block;
+	position: relative;
+	right:11%
+}
+
+	.rightc_image:before {
+		pointer-events: none;
+		background-image: url("../../images/overlay.png");
+		background-color: rgba(19, 21, 25, 0.5);
+		border-radius: 4px;
+		content: '';
+		display: block;
+		height: 100%;
+		left: 0%;
+		opacity: 0.5;
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+
+	.rightc_image img {
+		border-radius: 4px;
+		display: block;
+	}
+
+
+	.rightc_image.main {
+		float: right;
+		display: block;
+		margin: 1.5rem 10;
+		width: 35%;
+	}
+
+		.rightc_image.main img {
+			width: 100%;
+		}
+
+	@media screen and (max-width: 736px) {
+
+		.rightc_image.main {
+			margin: 2rem 0;
+		}
+
+	}
+
+	@media screen and (max-width: 480px) {
+
+		.rightc_image.main {
+			margin: 1.5rem 0;
+		}
+
+	}
+
+
 /* Left floating image */
 .left_image {
 	border-radius: 4px;
