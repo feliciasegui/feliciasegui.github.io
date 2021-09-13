@@ -726,7 +726,7 @@ input, select, textarea {
 	.left_image.main {
 		float: left;
 		display: block;
-		margin: 1.1rem ;
+		margin: 0.5rem ;
 		width: 50%;
 	}
 
